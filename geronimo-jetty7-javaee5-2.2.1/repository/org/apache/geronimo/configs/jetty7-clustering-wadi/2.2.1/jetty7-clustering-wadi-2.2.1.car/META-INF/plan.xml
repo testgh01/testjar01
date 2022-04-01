@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+<!--$Rev: 651002 $ $Date: 2008-04-24 02:51:26 +0800 (Thu, 24 Apr 2008) $-->
+<module xmlns="http://geronimo.apache.org/xml/ns/deployment-1.2">
+  <environment>
+    <moduleId>
+      <groupId>org.apache.geronimo.configs</groupId>
+      <artifactId>jetty7-clustering-wadi</artifactId>
+      <version>2.2.1</version>
+      <type>car</type>
+    </moduleId>
+    <dependencies>
+      <dependency>
+        <groupId>org.apache.geronimo.modules</groupId>
+        <artifactId>geronimo-jetty7-clustering-wadi</artifactId>
+        <version>2.2.1</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>transaction</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>webservices-common</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-jaspi</artifactId>
+        <version>7.2.1.v20101111</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-security</artifactId>
+        <version>7.2.1.v20101111</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-webapp</artifactId>
+        <version>7.2.1.v20101111</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-xml</artifactId>
+        <version>7.2.1.v20101111</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-servlet</artifactId>
+        <version>7.2.1.v20101111</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>jetty7</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>wadi-clustering</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+    </dependencies>
+    <hidden-classes/>
+    <non-overridable-classes/>
+    <private-classes/>
+  </environment>
+</module>

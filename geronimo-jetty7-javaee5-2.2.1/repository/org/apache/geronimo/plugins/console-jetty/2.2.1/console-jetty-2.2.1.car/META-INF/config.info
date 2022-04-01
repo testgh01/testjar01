@@ -1,0 +1,9 @@
+id=org.apache.geronimo.plugins/console-jetty/2.2.1/car
+type=EAR
+created=1291375943103
+child.0.id=org.apache.geronimo.plugins/console-jetty_portal-driver.war/2.2.1/car
+child.0.type=WAR
+child.0.created=1291375942355
+child.1.id=org.apache.geronimo.plugins/console-jetty_base-portlets.war/2.2.1/car
+child.1.type=WAR
+child.1.created=1291375943102

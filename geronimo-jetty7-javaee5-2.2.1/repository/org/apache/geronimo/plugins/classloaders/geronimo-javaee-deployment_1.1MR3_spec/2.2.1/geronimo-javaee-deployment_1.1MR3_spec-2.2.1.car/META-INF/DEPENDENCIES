@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+geronimo-javaee-deployment_1.1MR3_spec classloader
+
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - JAVAEE Deployment 1.1MR3 (http://geronimo.apache.org/specs/geronimo-javaee-deployment_1.1MR3_spec) org.apache.geronimo.specs:geronimo-javaee-deployment_1.1MR3_spec:jar:1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Geronimo development community' (http://geronimo.apache.org/)
+  - Geronimo Framework, Modules :: Deploy Config (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-deploy-config) org.apache.geronimo.framework:geronimo-deploy-config:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

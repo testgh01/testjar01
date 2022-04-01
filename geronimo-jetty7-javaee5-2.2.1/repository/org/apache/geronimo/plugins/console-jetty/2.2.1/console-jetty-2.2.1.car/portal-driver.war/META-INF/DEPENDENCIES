@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Geronimo Plugins, Console :: Portal Driver
+
+
+From: 'The Apache Geronimo development community' (http://geronimo.apache.org/)
+  - Geronimo Plugins, Console :: XSSXSRF Filter (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/console/console-filter) org.apache.geronimo.plugins:console-filter:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

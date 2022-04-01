@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Plugin Group :: Web Little-G Jetty</name>
+    <category>Geronimo Plugin Group</category>
+    <pluginGroup>true</pluginGroup>
+    <description>This plugin group provides the little-G Jetty functionality.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.plugingroups</groupId>
+            <artifactId>web-jetty</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.2.1</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.framework.plugingroups</groupId>
+            <artifactId>framework</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>offline-deployer</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>hot-deployer</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>jsr88-ear-configurer</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>jsr88-rar-configurer</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>jsr88-war-configurer</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>remote-deploy-jetty</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>gshell-geronimo</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>gshell-remote</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>jetty7-deployer</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>jasper-deployer</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>sharedlib</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+    </plugin-artifact>
+</geronimo-plugin>

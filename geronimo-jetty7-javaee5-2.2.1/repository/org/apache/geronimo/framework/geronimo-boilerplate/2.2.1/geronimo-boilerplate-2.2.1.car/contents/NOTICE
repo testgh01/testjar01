@@ -1,0 +1,157 @@
+Apache Geronimo 
+Copyright 2003-2010 The Apache Software Foundation
+
+This product includes software developed by
+The Apache Software Foundation (http://www.apache.org/).
+
+Portions of the Web Console were orginally developed by International
+Business Machines Corporation and are licensed to the Apache Software
+Foundation under the "Software Grant and Corporate Contribution
+License Agreement", informally known as the "IBM Console CLA".
+
+Portions of the ASN1 codec implementation in
+framework/modules/geronimo-crypto/ were developed by the Bouncy Castle
+project (http://www.bouncycastle.org/).
+
+Copyright (c) 2000-2005 
+The Legion Of The Bouncy Castle (http://www.bouncycastle.org)
+
+ORB Portions of this software were developed at IONA Technologies.
+   
+Object Management Group (OMG) classes used by the orb.
+The original classes are available from www.org.omg.
+
+The RMI over IIOP implementation were developed at Trifork Technologies.
+
+Copyright 2004-2009 Tranql project committers
+This product includes software developed at
+Tranql (http://tranql.codehaus.org/).
+
+This product includes software developed by the Protocol Buffers
+project (http://code.google.com/apis/protocolbuffers).
+
+This product includes also software developed by :
+  - the W3C consortium (http://www.w3c.org) ,
+  - the SAX project (http://www.saxproject.org)
+
+The <sync> task is based on code Copyright (c) 2002, Landmark
+Graphics Corp that has been kindly donated to the Apache Software
+Foundation.
+
+Portions of this software were originally based on the following:
+  - software copyright (c) 1999, IBM Corporation., http://www.ibm.com.
+  - software copyright (c) 1999, Sun Microsystems., http://www.sun.com.
+  - voluntary contributions made by Paul Eng on behalf of the 
+    Apache Software Foundation that were originally developed at iClick, Inc.,
+    software copyright (c) 1999.
+
+
+Portions Copyright 2006 International Business Machines Corp.
+Portions Copyright 2005-2007 WSO2, Inc.
+
+This product also includes schemas and specification developed by:
+- the W3C consortium (http://www.w3c.org)
+
+This product also includes WS-* schemas developed by International
+Business Machines Corporation, Microsoft Corporation, BEA Systems,
+TIBCO Software, SAP AG, Sonic Software, and VeriSign
+
+This product also includes a WSDL developed by salesforce.com
+- Copyright 1999-2006 salesforce.com, inc.
+
+Portions of the included xmlbeans library were originally based on the following:
+- software copyright (c) 2000-2003, BEA Systems, <http://www.bea.com/>.
+
+This product also includes schemas and specification developed by:
+      - the W3C consortium (http://www.w3c.org)
+      (http://www.w3.org/XML/1998/namespace)
+      
+This product also includes WS-* schemas developed by International
+   Business Machines Corporation, Microsoft Corporation, BEA Systems, 
+   TIBCO Software, SAP AG, Sonic Software, and VeriSign
+   (http://schemas.xmlsoap.org/wsdl/2003-02-11.xsd)
+   (http://schemas.xmlsoap.org/ws/2004/08/addressing/)
+   (http://schemas.xmlsoap.org/wsdl/http)
+   (http://schemas.xmlsoap.org/ws/2005/02/rm/wsrm.xsd)
+   (http://www.w3.org/2005/08/addressing/ws-addr.xsd)
+
+Portions of Derby were originally developed by
+International Business Machines Corporation and are
+licensed to the Apache Software Foundation under the
+"Software Grant and Corporate Contribution License Agreement",
+informally known as the "Derby CLA".
+The following copyright notice(s) were affixed to portions of the code
+with which this file is now or was at one time distributed
+and are placed here unaltered.
+
+(C) Copyright 1997,2004 International Business Machines Corporation.  All rights reserved.
+
+(C) Copyright IBM Corp. 2003. 
+
+The portion of the functionTests under 'nist' was originally 
+developed by the National Institute of Standards and Technology (NIST), 
+an agency of the United States Department of Commerce, and adapted by
+International Business Machines Corporation in accordance with the NIST
+Software Acknowledgment and Redistribution document at
+http://www.itl.nist.gov/div897/ctg/sql_form.htm
+
+* OpenJPA includes software written by Miroslav Nachev.
+
+* OpenJPA uses test code written by Charles Tillman.
+
+XMLSec was originally based on software copyright (c) 2001, Institute for
+Data Communications Systems, <http://www.nue.et-inf.uni-siegen.de/>.
+
+The development of XMLSec was partly funded by the European 
+Commission in the <WebSig> project in the ISIS Programme. 
+
+This product also includes software developed by :
+   
+  - IBM Corporation (http://www.ibm.com),
+      WSDL4J was the initial code contribution for the Apache Woden
+      project and some of the WSDL4J design and code has been reused.
+  - The W3C Consortium (http://www.w3c.org),
+      Common W3C XML Schema and DTD files are packaged with Apache Woden.
+
+Portions Copyright 2006 International Business Machines Corp.
+
+Portions of this software were originally based on the following:
+  - software copyright (c) 2000-2003, BEA Systems, <http://www.bea.com/>.
+
+Aside from contributions to the Apache XMLBeans project, this
+software also includes:
+
+ - one or more source files from the Apache Xerces-J and Apache Axis
+   products, Copyright (c) 1999-2003 Apache Software Foundation
+
+ - W3C XML Schema documents Copyright 2001-2003 (c) World Wide Web
+   Consortium (Massachusetts Institute of Technology, European Research
+   Consortium for Informatics and Mathematics, Keio University)
+
+ - resolver.jar from Apache Xml Commons project,
+   Copyright (c) 2001-2003 Apache Software Foundation
+
+ - Piccolo XML Parser for Java from http://piccolo.sourceforge.net/,
+   Copyright 2002 Yuval Oren under the terms of the Apache Software License 2.0
+
+ - JSR-173 Streaming API for XML from http://sourceforge.net/projects/xmlpullparser/,
+   Copyright 2005 BEA under the terms of the Apache Software License 2.0
+
+This product includes software developed by the Simple XML Compiler (SXC) 
+project (http://sxc.codehaus.org/project-info.html)
+
+This product includes software developed for the JAXB Reference 
+Implementation project. (https://jaxb.dev.java.net/)
+
+This product includes software developed for SOAP with Attachments
+API for Java (SAAJ). The software is available from the GlassFish project 
+(https://saaj.dev.java.net/)
+
+This product includes software developed for Java API for XML Web Services
+project (JAX-WS) (https://jax-ws.dev.java.net/)
+
+This product includes software developed for the Java Server Pages Tag 
+Library project (https://jstl.dev.java.net/)
+
+This product includes software developed for the StAX-Ex project 
+(https://stax-ex.dev.java.net/)

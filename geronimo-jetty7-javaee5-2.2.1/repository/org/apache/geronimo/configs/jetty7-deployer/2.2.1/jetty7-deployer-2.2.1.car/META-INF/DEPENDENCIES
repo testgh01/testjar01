@@ -1,0 +1,289 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Geronimo Plugins, Jetty :: Deployer
+
+
+From: 'an unknown organization'
+  - cglib (http://cglib.sourceforge.net/) cglib:cglib-nodep:jar:2.1_3
+
+  - Unnamed - com.sun.xml.bind:jaxb-impl:jar:2.1.7  com.sun.xml.bind:jaxb-impl:jar:2.1.7
+
+  - Unnamed - com.sun.xml.messaging.saaj:saaj-impl:jar:1.3.2  com.sun.xml.messaging.saaj:saaj-impl:jar:1.3.2
+
+  - CLI  commons-cli:commons-cli:jar:1.0
+
+  - Unnamed - javax.servlet:jstl:jar:1.2  javax.servlet:jstl:jar:1.2
+
+  - JLine (http://jline.sourceforge.net) jline:jline:jar:0.9.94
+    License: BSD  (LICENSE.txt)
+  - Castor (http://castor.org) org.codehaus.castor:castor:jar:1.0.5
+
+  - WSDL4J (http://sf.net/projects/wsdl4j) wsdl4j:wsdl4j:jar:1.6.2
+    License: CPL  (http://www.opensource.org/licenses/cpl1.0.txt)
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - Apache Log4j (http://logging.apache.org:80/log4j/1.2/) log4j:log4j:jar:1.2.15
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Schema :: J2EE 1.4 (http://geronimo.apache.org/geronimo-schema-j2ee_1.4) org.apache.geronimo.schema:geronimo-schema-j2ee_1.4:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Schema :: JEE 5 (http://geronimo.apache.org/geronimo-schema-jee_5) org.apache.geronimo.schema:geronimo-schema-jee_5:jar:1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Activation 1.1 (http://geronimo.apache.org/specs/geronimo-activation_1.1_spec) org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Annotation 1.0 (http://geronimo.apache.org/specs/geronimo-annotation_1.0_spec) org.apache.geronimo.specs:geronimo-annotation_1.0_spec:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - EJB 3.0 (http://geronimo.apache.org/specs/geronimo-ejb_3.0_spec) org.apache.geronimo.specs:geronimo-ejb_3.0_spec:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Interceptor 3.0 (http://geronimo.apache.org/specs/geronimo-interceptor_3.0_spec) org.apache.geronimo.specs:geronimo-interceptor_3.0_spec:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - J2EE Connector 1.5 (http://geronimo.apache.org/specs/geronimo-j2ee-connector_1.5_spec) org.apache.geronimo.specs:geronimo-j2ee-connector_1.5_spec:jar:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - J2EE Management 1.1 (http://geronimo.apache.org/specs/geronimo-j2ee-management_1.1_spec) org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JAVAEE Deployment 1.1MR3 (http://geronimo.apache.org/specs/geronimo-javaee-deployment_1.1MR3_spec) org.apache.geronimo.specs:geronimo-javaee-deployment_1.1MR3_spec:jar:1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JAXR 1.0 (http://geronimo.apache.org/specs/geronimo-jaxr_1.0_spec) org.apache.geronimo.specs:geronimo-jaxr_1.0_spec:jar:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JAXRPC 1.1 (http://geronimo.apache.org/specs/geronimo-jaxrpc_1.1_spec) org.apache.geronimo.specs:geronimo-jaxrpc_1.1_spec:jar:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JMS 1.1 (http://geronimo.apache.org/specs/geronimo-jms_1.1_spec) org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JSP 2.1 (http://geronimo.apache.org/specs/geronimo-jsp_2.1_spec) org.apache.geronimo.specs:geronimo-jsp_2.1_spec:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JTA 1.1 (http://geronimo.apache.org/specs/geronimo-jta_1.1_spec) org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Streaming API for XML (STAX API 1.0) (http://geronimo.apache.org/specs/geronimo-stax-api_1.0_spec) org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:bundle:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Web Services Metadata 2.0 (http://geronimo.apache.org/specs/geronimo-ws-metadata_2.0_spec) org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:jar:1.1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - XML Commons Resolver Component (http://xml.apache.org/commons/components/resolver/) xml-resolver:xml-resolver:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Plexus Archiver Component  org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7
+
+  - Plexus Component API  org.codehaus.plexus:plexus-component-api:jar:1.0-alpha-32
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Default Plexus Container  org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-32
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Plexus Common Utilities (http://plexus.codehaus.org/plexus-utils) org.codehaus.plexus:plexus-utils:jar:1.4.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:wstx-asl:jar:3.2.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Envoi Solutions LLC' (http://www.envoisolutions.com/)
+  - SXC JAXB (http://soter.codehaus.org/sxc-jaxb) com.envoisolutions.sxc:sxc-jaxb:jar:0.7.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Extreme! Lab, Indiana University' (http://www.extreme.indiana.edu/)
+  - MXP1: Xml Pull Parser 3rd Edition (XPP3) (http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/) xpp3:xpp3_min:jar:1.1.4c
+    License: Indiana University Extreme! Lab Software License, vesion 1.1.1  (http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/LICENSE.txt)    License: Public Domain  (http://creativecommons.org/licenses/publicdomain)
+
+From: 'Mort Bay Consulting' (http://www.mortbay.com)
+  - Jetty :: AJP (http://www.eclipse.org/jetty/jetty-ajp) org.eclipse.jetty:jetty-ajp:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Continuation (http://www.eclipse.org/jetty/jetty-continuation) org.eclipse.jetty:jetty-continuation:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Http Utility (http://www.eclipse.org/jetty/jetty-http) org.eclipse.jetty:jetty-http:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: IO Utility (http://www.eclipse.org/jetty/jetty-io) org.eclipse.jetty:jetty-io:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: JASPI Security (http://www.eclipse.org/jetty/jetty-jaspi) org.eclipse.jetty:jetty-jaspi:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Security (http://www.eclipse.org/jetty/jetty-security) org.eclipse.jetty:jetty-security:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Server Core (http://www.eclipse.org/jetty) org.eclipse.jetty:jetty-server:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Servlet Handling (http://www.eclipse.org/jetty/jetty-servlet) org.eclipse.jetty:jetty-servlet:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Utilities (http://www.eclipse.org/jetty/jetty-util) org.eclipse.jetty:jetty-util:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Webapp Application Support (http://www.eclipse.org/jetty/jetty-webapp) org.eclipse.jetty:jetty-webapp:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: XML utilities (http://www.eclipse.org/jetty/jetty-xml) org.eclipse.jetty:jetty-xml:jar:7.2.1.v20101111
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+
+From: 'ObjectWeb' (http://www.objectweb.org/)
+  - ASM Core (http://asm.objectweb.org/asm) asm:asm:jar:3.1
+
+  - ASM Commons (http://asm.objectweb.org/asm-commons) asm:asm-commons:jar:3.1
+
+
+From: 'ObjectWeb HOWL' (http://forge.objectweb.org/projects/howl)
+  - HOWL logger (http://forge.objectweb.org/projects/howl/) org.objectweb.howl:howl:jar:1.0.1-1
+    License: BSD 
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - JCL 1.1.1 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.5.5
+
+  - JUL to SLF4J bridge (http://www.slf4j.org) org.slf4j:jul-to-slf4j:jar:1.5.5
+
+  - SLF4J LOG4J-12 Binding (http://www.slf4j.org) org.slf4j:slf4j-log4j12:jar:1.5.5
+
+
+From: 'The Apache Geronimo development community' (http://geronimo.apache.org/)
+  - Geronimo Plugins, Connector :: Deployer (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/connector/connector-deployer) org.apache.geronimo.configs:connector-deployer:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, J2EE :: Deployer (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/j2ee/j2ee-deployer) org.apache.geronimo.configs:j2ee-deployer:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, J2EE :: Server (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/j2ee/j2ee-server) org.apache.geronimo.configs:j2ee-server:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Jetty :: Jetty 7 (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/jetty7/jetty7) org.apache.geronimo.configs:jetty7:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Connector :: Transaction Manager (JTA11) (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/connector/transaction) org.apache.geronimo.configs:transaction:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Web Services :: Common (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/webservices/webservices-common) org.apache.geronimo.configs:webservices-common:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: CLI (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-cli) org.apache.geronimo.framework:geronimo-cli:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Common (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-common) org.apache.geronimo.framework:geronimo-common:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Config Groovy Transformer (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-config-groovy-transformer) org.apache.geronimo.framework:geronimo-config-groovy-transformer:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Core (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-core) org.apache.geronimo.framework:geronimo-core:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Crypto (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-crypto) org.apache.geronimo.framework:geronimo-crypto:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Deploy Config (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-deploy-config) org.apache.geronimo.framework:geronimo-deploy-config:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Deployment (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-deployment) org.apache.geronimo.framework:geronimo-deployment:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Configs :: GBean Deployer (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/geronimo-gbean-deployer) org.apache.geronimo.framework:geronimo-gbean-deployer:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Interceptor (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-interceptor) org.apache.geronimo.framework:geronimo-interceptor:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: JDBC (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-jdbc) org.apache.geronimo.framework:geronimo-jdbc:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: JMX Remoting (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-jmx-remoting) org.apache.geronimo.framework:geronimo-jmx-remoting:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Kernel (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-kernel) org.apache.geronimo.framework:geronimo-kernel:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Management API (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-management) org.apache.geronimo.framework:geronimo-management:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Naming (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-naming) org.apache.geronimo.framework:geronimo-naming:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Plugin (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-plugin) org.apache.geronimo.framework:geronimo-plugin:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Security (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-security) org.apache.geronimo.framework:geronimo-security:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Service Builder (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-service-builder) org.apache.geronimo.framework:geronimo-service-builder:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: System (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-system) org.apache.geronimo.framework:geronimo-system:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: Transformer (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/modules/geronimo-transformer) org.apache.geronimo.framework:geronimo-transformer:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Configs :: J2EE Security (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/j2ee-security) org.apache.geronimo.framework:j2ee-security:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Configs :: J2EE System (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/j2ee-system) org.apache.geronimo.framework:j2ee-system:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Configs :: JavaEE Specs (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/jee-specs) org.apache.geronimo.framework:jee-specs:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Configs :: Plugin Management (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/plugin) org.apache.geronimo.framework:plugin:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Configs :: RMI Naming (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/rmi-naming) org.apache.geronimo.framework:rmi-naming:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Configs :: Server Security Configuration (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/server-security-config) org.apache.geronimo.framework:server-security-config:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Configs :: XMLBeans (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/xmlbeans) org.apache.geronimo.framework:xmlbeans:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Connector :: Core (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/connector/geronimo-connector) org.apache.geronimo.modules:geronimo-connector:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Connector :: Builder (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/connector/geronimo-connector-builder) org.apache.geronimo.modules:geronimo-connector-builder:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Framework, Modules :: J2EE (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/j2ee/geronimo-j2ee) org.apache.geronimo.modules:geronimo-j2ee:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, J2EE :: Builder (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/j2ee/geronimo-j2ee-builder) org.apache.geronimo.modules:geronimo-j2ee-builder:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, J2EE :: Schema (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/j2ee/geronimo-j2ee-schema) org.apache.geronimo.modules:geronimo-j2ee-schema:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, JAXWS :: Core (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/jaxws/geronimo-jaxws) org.apache.geronimo.modules:geronimo-jaxws:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Jetty :: Core (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/jetty7/geronimo-jetty7) org.apache.geronimo.modules:geronimo-jetty7:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Jetty :: Builder (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/jetty7/geronimo-jetty7-builder) org.apache.geronimo.modules:geronimo-jetty7-builder:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, J2EE :: Naming Builder (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/j2ee/geronimo-naming-builder) org.apache.geronimo.modules:geronimo-naming-builder:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, OpenJPA :: Persistence 3.0 (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/openjpa/geronimo-persistence-jpa10) org.apache.geronimo.modules:geronimo-persistence-jpa10:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, J2EE :: Security Builder (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/j2ee/geronimo-security-builder) org.apache.geronimo.modules:geronimo-security-builder:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Connector :: Transaction (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/connector/geronimo-transaction) org.apache.geronimo.modules:geronimo-transaction:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, J2EE :: Web 2.5 Builder (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/j2ee/geronimo-web-2.5-builder) org.apache.geronimo.modules:geronimo-web-2.5-builder:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo Plugins, Web Services :: Core (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/webservices/geronimo-webservices) org.apache.geronimo.modules:geronimo-webservices:jar:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - geronimo-javaee-deployment_1.1MR3_spec classloader (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/framework/configs/geronimo-javaee-deployment_1.1MR3_spec) org.apache.geronimo.plugins.classloaders:geronimo-javaee-deployment_1.1MR3_spec:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - geronimo-schema-jee_5 classloader (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/classloaders/geronimo-schema-jee_5) org.apache.geronimo.plugins.classloaders:geronimo-schema-jee_5:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - xbean-finder classloader (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/geronimo/plugins/classloaders/xbean-finder) org.apache.geronimo.plugins.classloaders:xbean-finder:car:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache OpenEJB development community' (http://openejb.apache.org)
+  - OpenEJB :: APIs :: EJB 3.1 Experimental (http://www.apache.org/openejb/api/ejb31-api-experimental) org.apache.openejb:ejb31-api-experimental:jar:3.1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Commons JEXL (http://jakarta.apache.org/commons/jexl/) commons-jexl:commons-jexl:jar:1.1
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org)
+  - Geronimo TxManager :: Connector (http://geronimo.apache.org/maven/txmanager/2.2.1/geronimo-connector) org.apache.geronimo.components:geronimo-connector:bundle:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo JASPI implementation (http://geronimo.apache.org/maven/components/geronimo-jaspi/1.0) org.apache.geronimo.components:geronimo-jaspi:bundle:1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo TxManager :: Transaction (http://geronimo.apache.org/maven/txmanager/2.2.1/geronimo-transaction) org.apache.geronimo.components:geronimo-transaction:bundle:2.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Geronimo JavaMail 1.4 :: Mail (http://geronimo.apache.org/maven/javamail/geronimo-javamail_1.4_mail/1.8.2/geronimo-javamail_1.4_mail) org.apache.geronimo.javamail:geronimo-javamail_1.4_mail:bundle:1.8.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Geronimo Concurrency Utilities for Java EE API (http://geronimo.apache.org/maven/specs/geronimo-concurrent_1.0_spec/1.0-EA) org.apache.geronimo.specs:geronimo-concurrent_1.0_spec:jar:1.0-EA
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Expression Language 1.0 (http://geronimo.apache.org/maven/specs/geronimo-el_1.0_spec/1.0.2) org.apache.geronimo.specs:geronimo-el_1.0_spec:bundle:1.0.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - J2EE JACC 1.1 (http://geronimo.apache.org/maven/specs/geronimo-jacc_1.1_spec/1.0.2) org.apache.geronimo.specs:geronimo-jacc_1.1_spec:bundle:1.0.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Java Authentication SPI for Containers (http://geronimo.apache.org/maven/specs/geronimo-jaspic_1.0_spec/1.0) org.apache.geronimo.specs:geronimo-jaspic_1.0_spec:bundle:1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache JAXB 2.1 Spec (http://geronimo.apache.org/maven/specs/geronimo-jaxb_2.1_spec/1.0) org.apache.geronimo.specs:geronimo-jaxb_2.1_spec:bundle:1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Geronimo JAX-WS 2.1 API (http://geronimo.apache.org/maven/specs/geronimo-jaxws_2.1_spec/1.0) org.apache.geronimo.specs:geronimo-jaxws_2.1_spec:jar:1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JPA 1.0 (http://geronimo.apache.org/maven/specs/geronimo-jpa_1.0_spec/1.1.2) org.apache.geronimo.specs:geronimo-jpa_1.0_spec:bundle:1.1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - SAAJ 1.3 (http://geronimo.apache.org/maven/specs/geronimo-saaj_1.3_spec/1.0.1) org.apache.geronimo.specs:geronimo-saaj_1.3_spec:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Servlet 2.5 (http://geronimo.apache.org/maven/specs/servlet-2.5/1.2) org.apache.geronimo.specs:geronimo-servlet_2.5_spec:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache XBean :: Classpath Resource Finder (http://geronimo.apache.org/maven/xbean/3.7/xbean-finder) org.apache.xbean:xbean-finder:bundle:3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache XBean :: Naming (http://geronimo.apache.org/maven/xbean/3.6/xbean-naming) org.apache.xbean:xbean-naming:bundle:3.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache XBean :: Reflect (http://geronimo.apache.org/maven/xbean/3.7/xbean-reflect) org.apache.xbean:xbean-reflect:bundle:3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Myfaces JSF Core-1.2 API (http://myfaces.apache.org/core12/myfaces-api) org.apache.myfaces.core:myfaces-api:jar:1.2.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Codehaus' (http://codehaus.org)
+  - Groovy (http://groovy.codehaus.org/) org.codehaus.groovy:groovy-all-minimal:jar:1.5.6
+
+
+From: 'XmlBeans' (http://xmlbeans.apache.org/)
+  - XmlBeans (http://xmlbeans.apache.org) org.apache.xmlbeans:xmlbeans:jar:2.3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'XStream' (http://xstream.codehaus.org)
+  - XStream Core  com.thoughtworks.xstream:xstream:jar:1.3
+    License: BSD style  (http://xstream.codehaus.com/license.html)
+
+
+
+

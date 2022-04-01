@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Plugins, ActiveMQ v5 :: Broker</name>
+    <category>JMS</category>
+    <pluginGroup>false</pluginGroup>
+    <description>Apache ActiveMQ v5 integration into geronimo.  This module starts an activemq broker embedded in geronimo.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>activemq-broker</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.2.1</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>system-database</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>server-security-config</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-activemq</artifactId>
+            <version>2.2.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-activemq-management</artifactId>
+            <version>2.2.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-core</artifactId>
+            <version>5.4.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activeio-core</artifactId>
+            <version>3.1.2</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>spring</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.xbean</groupId>
+            <artifactId>xbean-spring</artifactId>
+            <version>3.7</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>kahadb</artifactId>
+            <version>5.4.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq.protobuf</groupId>
+            <artifactId>activemq-protobuf</artifactId>
+            <version>1.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>2.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.jasypt</groupId>
+            <artifactId>jasypt</artifactId>
+            <version>1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.3</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.3</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.icu</groupId>
+            <artifactId>icu4j</artifactId>
+            <version>4.0.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>backport-util-concurrent</groupId>
+            <artifactId>backport-util-concurrent</artifactId>
+            <version>2.2</version>
+            <type>jar</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+        <copy-file relative-to="server" dest-dir="var/activemq/conf">activemq.xml</copy-file>
+        <copy-file relative-to="server" dest-dir="var/activemq/template">activemq-template.xml</copy-file>
+        <artifact-alias key="org.apache.geronimo.configs/activemq-broker//car">org.apache.geronimo.configs/activemq-broker/2.2.1/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/activemq-broker/2.2/car">org.apache.geronimo.configs/activemq-broker/2.2.1/car</artifact-alias>
+    </plugin-artifact>
+</geronimo-plugin>

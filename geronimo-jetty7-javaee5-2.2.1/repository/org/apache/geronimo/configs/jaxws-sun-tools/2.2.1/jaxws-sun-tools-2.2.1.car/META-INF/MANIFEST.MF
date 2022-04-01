@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: rex
+Build-Jdk: 1.5.0_18
+Main-Class: org.apache.geronimo.jaxws.builder.JAXWSToolsCLI
+Endorsed-Dirs: lib/endorsed
+Extension-Dirs: lib/ext
+Class-Path: ../lib/geronimo-kernel-2.2.1.jar ../lib/geronimo-jaxws-sun
+ -tools-2.2.1.jar ../lib/cglib-nodep-2.1_3.jar ../lib/slf4j-api-1.5.5.
+ jar ../lib/slf4j-log4j12-1.5.5.jar ../lib/jcl-over-slf4j-1.5.5.jar ..
+ /lib/log4j-1.2.15.jar
+

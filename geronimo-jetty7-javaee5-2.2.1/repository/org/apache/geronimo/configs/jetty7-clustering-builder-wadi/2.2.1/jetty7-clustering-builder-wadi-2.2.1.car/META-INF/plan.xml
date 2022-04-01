@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+<!--$Rev: 684568 $ $Date: 2008-08-11 02:42:39 +0800 (Mon, 11 Aug 2008) $-->
+<module xmlns="http://geronimo.apache.org/xml/ns/deployment-1.2">
+  <environment>
+    <moduleId>
+      <groupId>org.apache.geronimo.configs</groupId>
+      <artifactId>jetty7-clustering-builder-wadi</artifactId>
+      <version>2.2.1</version>
+      <type>car</type>
+    </moduleId>
+    <dependencies>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>jetty7-deployer</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.modules</groupId>
+        <artifactId>geronimo-jetty7-clustering-builder-wadi</artifactId>
+        <version>2.2.1</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>jetty7-clustering-wadi</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+        <import>classes</import>
+      </dependency>
+    </dependencies>
+    <hidden-classes/>
+    <non-overridable-classes/>
+    <private-classes/>
+  </environment>
+  <gbean name="JettyClusteringBuilder" class="org.apache.geronimo.jetty7.cluster.wadi.builder.WADIJettyClusteringBuilder">
+    <attribute name="defaultSweepInterval">10</attribute>
+    <attribute name="defaultNumPartitions">24</attribute>
+    <attribute name="defaultBackingStrategyFactoryName">?name=DefaultBackingStrategyFactory</attribute>
+    <attribute name="defaultClusterName">?name=DefaultCluster</attribute>
+    <xml-attribute name="defaultEnvironment">
+      <environment>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>jetty7-clustering-wadi</artifactId>
+            <type>car</type>
+          </dependency>
+        </dependencies>
+      </environment>
+    </xml-attribute>
+  </gbean>
+</module>

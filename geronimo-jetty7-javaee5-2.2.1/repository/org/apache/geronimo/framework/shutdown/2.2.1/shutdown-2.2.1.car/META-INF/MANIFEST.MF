@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: rex
+Build-Jdk: 1.5.0_18
+Main-Class: org.apache.geronimo.kernel.util.MainBootstrapper
+Endorsed-Dirs: lib/endorsed
+Extension-Dirs: lib/ext
+Class-Path: ../lib/geronimo-crypto-2.2.1.jar ../lib/geronimo-kernel-2.
+ 2.1.jar ../lib/cglib-nodep-2.1_3.jar ../lib/slf4j-api-1.5.5.jar ../li
+ b/slf4j-log4j12-1.5.5.jar ../lib/jcl-over-slf4j-1.5.5.jar ../lib/log4
+ j-1.2.15.jar ../lib/xbean-reflect-3.7.jar
+

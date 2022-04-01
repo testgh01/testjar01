@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.-->
+<!--$Rev: 1004290 $ $Date: 2010-10-04 23:35:13 +0800 (Mon, 04 Oct 2010) $-->
+<module xmlns="http://geronimo.apache.org/xml/ns/deployment-1.2">
+  <environment>
+    <moduleId>
+      <groupId>org.apache.geronimo.configs</groupId>
+      <artifactId>openejb</artifactId>
+      <version>2.2.1</version>
+      <type>car</type>
+    </moduleId>
+    <dependencies>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>j2ee-server</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.framework</groupId>
+        <artifactId>server-security-config</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>transaction</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>system-database</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-core</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-api</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-loader</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-javaagent</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-jee</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.xbean</groupId>
+        <artifactId>xbean-asm-shaded</artifactId>
+        <version>3.7</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.swizzle</groupId>
+        <artifactId>swizzle-stream</artifactId>
+        <version>1.0.1</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>quartz</groupId>
+        <artifactId>quartz</artifactId>
+        <version>1.5.2</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.modules</groupId>
+        <artifactId>geronimo-openejb</artifactId>
+        <version>2.2.1</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-ejbd</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-server</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-client</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.openejb</groupId>
+        <artifactId>openejb-multicast</artifactId>
+        <version>3.1.4</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>openjpa</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.yoko</groupId>
+        <artifactId>yoko-spec-corba</artifactId>
+        <version>1.0</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.configs</groupId>
+        <artifactId>webservices-common</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.geronimo.plugins.classloaders</groupId>
+        <artifactId>xbean-finder</artifactId>
+        <version>2.2.1</version>
+        <type>car</type>
+      </dependency>
+    </dependencies>
+    <hidden-classes/>
+    <non-overridable-classes/>
+    <private-classes/>
+  </environment>
+  <gbean name="OpenEJBSystemProperties" class="org.apache.geronimo.system.properties.SystemProperties">
+    <attribute name="systemProperties">openejb.vendor.config=GERONIMO</attribute>
+  </gbean>
+  <gbean name="OpenEjbContext" class="org.apache.geronimo.openejb.DeepBindableContext">
+    <attribute name="nameInNamespace">openejb</attribute>
+    <attribute name="cacheReferences">false</attribute>
+    <attribute name="supportReferenceable">true</attribute>
+    <attribute name="checkDereferenceDifferent">true</attribute>
+    <attribute name="assumeDereferenceBound">false</attribute>
+  </gbean>
+  <gbean name="OpenEjbSystem" class="org.apache.geronimo.openejb.OpenEjbSystemGBean">
+    <reference name="TransactionManager">
+      <name>TransactionManager</name>
+    </reference>
+    <reference name="ResourceAdapterWrappers"/>
+    <reference name="PersistenceUnitGBeans"/>
+    <reference name="OpenEjbContext">
+      <name>OpenEjbContext</name>
+    </reference>
+  </gbean>
+  <gbean name="ExtendedEntityManagerRegistry" class="org.apache.geronimo.openejb.EntityManagerRegistryImpl">
+    <dependency>
+      <name>OpenEjbSystem</name>
+    </dependency>
+  </gbean>
+  <gbean name="DefaultStatelessContainer" class="org.apache.geronimo.openejb.StatelessContainerGBean">
+    <attribute name="accessTimeout">0</attribute>
+    <attribute name="closeTimeout">300000</attribute>
+    <attribute name="maxSize">10</attribute>
+    <attribute name="minSize">0</attribute>
+    <attribute name="strictPooling">true</attribute>
+    <attribute name="idleTimeout">0</attribute>
+    <reference name="OpenEjbSystem">
+      <name>OpenEjbSystem</name>
+    </reference>
+  </gbean>
+  <gbean name="DefaultStatefulContainer" class="org.apache.geronimo.openejb.StatefulContainerGBean">
+    <attribute name="timeout">20</attribute>
+    <attribute name="capacity">1000</attribute>
+    <attribute name="bulkPassivate">100</attribute>
+    <reference name="OpenEjbSystem">
+      <name>OpenEjbSystem</name>
+    </reference>
+  </gbean>
+  <gbean name="DefaultSingletonContainer" class="org.apache.geronimo.openejb.SingletonContainerGBean">
+    <attribute name="accessTimeout">30</attribute>
+    <reference name="OpenEjbSystem">
+      <name>OpenEjbSystem</name>
+    </reference>
+  </gbean>
+  <gbean name="DefaultBMPContainer" class="org.apache.geronimo.openejb.BmpContainerGBean">
+    <attribute name="poolSize">10</attribute>
+    <reference name="OpenEjbSystem">
+      <name>OpenEjbSystem</name>
+    </reference>
+  </gbean>
+  <gbean name="DefaultCMPContainer" class="org.apache.geronimo.openejb.CmpContainerGBean">
+    <reference name="OpenEjbSystem">
+      <name>OpenEjbSystem</name>
+    </reference>
+  </gbean>
+  <gbean name="EJBNetworkService" class="org.apache.geronimo.openejb.EjbDaemonGBean">
+    <attribute name="port">4201</attribute>
+    <attribute name="host">0.0.0.0</attribute>
+    <attribute name="discoveryHost"/>
+    <attribute name="threads">200</attribute>
+    <attribute name="multicastPort">6142</attribute>
+    <attribute name="multicastHost">239.255.3.2</attribute>
+    <attribute name="multicastEnabled">false</attribute>
+    <attribute name="multipointPort">4212</attribute>
+    <attribute name="multipointHost">localhost</attribute>
+    <attribute name="multipointServers"/>
+    <attribute name="multipointEnabled">false</attribute>
+    <attribute name="clusterName">cluster1</attribute>
+    <attribute name="heartRate">500</attribute>
+    <attribute name="maxMissedHeartbeats">10</attribute>
+    <attribute name="discoveryURI">ejb:ejbd://0.0.0.0:4201</attribute>
+    <attribute name="secure">false</attribute>
+    <dependency>
+      <name>OpenEjbSystem</name>
+    </dependency>
+  </gbean>
+</module>

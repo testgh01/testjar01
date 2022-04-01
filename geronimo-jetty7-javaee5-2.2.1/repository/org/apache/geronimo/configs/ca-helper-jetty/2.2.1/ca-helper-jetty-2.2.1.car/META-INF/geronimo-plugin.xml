@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Plugins, CA Helper :: Jetty</name>
+    <category>Security</category>
+    <pluginGroup>false</pluginGroup>
+    <description>This is a helper application for CA to enable receiving CSR's through
+        and uploading certificates to web browsers.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>ca-helper-jetty</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.2.1</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>jasper</artifactId>
+            <version>2.2.1</version>
+            <type>car</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+        <artifact-alias key="org.apache.geronimo.configs/ca-helper-jetty//car">org.apache.geronimo.configs/ca-helper-jetty/2.2.1/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/ca-helper-jetty/2.2/car">org.apache.geronimo.configs/ca-helper-jetty/2.2.1/car</artifact-alias>
+    </plugin-artifact>
+</geronimo-plugin>
